@@ -5,7 +5,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/sqs"
-	"github.com/getzoop/rv-handling-dlq/reprocess"
+	"github.com/kimura-tiago/rv-handling-dlq/reprocess"
 )
 
 func main() {

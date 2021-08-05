@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/aws/aws-lambda-go/events"
-	"github.com/rv-handling-dlq/reprocess"
+	"github.com/kimura-tiago/rv-handling-dlq/reprocess"
 )
 
 type handlerFunc func(context.Context, events.SQSEvent)
